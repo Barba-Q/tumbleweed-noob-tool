@@ -16,7 +16,7 @@ A small script for openSuse Tumbleweed to...
 
 - From Terminal:
 
-    $PATH/ktnt_08.sh
+    sh $PATH/ktnt_08.sh
 ##
 
 ## Requirements:
