@@ -43,4 +43,4 @@ Feel free to make suggestions or changes.
 - purge temporary files on installation error / after system upgrade
 - create a binary instead of havin a plain script
 ##
-come to where the Pfeffer is
+_powered by knietief.com - come to where the Pfeffer is_
