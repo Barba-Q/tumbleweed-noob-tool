@@ -1,4 +1,4 @@
-# tumbleweed-noob-tool (current version 0.8)
+# tumbleweed-noob-tool (current version 0.8 - 07.2019)
 A small script for openSuse Tumbleweed to... 
 - install popular software, tools and drivers with a few ticks
 - automatically reinstall software from previous linux installations by locating existing configuration files in your home folder
