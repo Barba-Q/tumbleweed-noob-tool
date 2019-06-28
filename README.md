@@ -12,9 +12,11 @@ Usage:
     Simply download and start the script. Make sure it's executable.
 
 
+
 - From Terminal:
 
     $PATH/ktnt_08.sh
+
 
 
 Requirements:
@@ -22,6 +24,7 @@ Requirements:
 - zenity 
 
 (both should be preinstalled with openSuse Tumbleweed, script will check for both anyways and inform you if something is missing)
+
 
 
 Notes:
