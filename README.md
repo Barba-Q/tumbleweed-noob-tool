@@ -24,7 +24,7 @@ Requirements:
 (both should be preinstalled with openSuse Tumbleweed, script will check for both anyways and inform you if something is missing)
 
 
-Notes:
+Notes: \n
 I'm not a professional coder in any ways. Expect "not so clean" code, but hey, it works.
 
 Feel free to make suggestions or changes.
