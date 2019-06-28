@@ -18,7 +18,10 @@ Usage:
 
 
 Requirements:
-xterm; zenity (both should be preinstalled with openSuse Tumbleweed, script will check for both anyways and inform you if something is missing)
+- xterm 
+- zenity 
+
+(both should be preinstalled with openSuse Tumbleweed, script will check for both anyways and inform you if something is missing)
 
 
 Notes:
