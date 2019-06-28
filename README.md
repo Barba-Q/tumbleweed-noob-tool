@@ -1,4 +1,4 @@
-# tumbleweed-noob-tool (current version 0.8 - 07.2019)
+# tumbleweed-noob-tool (current version 0.8)
 A small script for openSuse Tumbleweed to... 
 - install popular software, tools and drivers with a few ticks
 - automatically reinstall software from previous linux installations by locating existing configuration files in your home folder
@@ -6,7 +6,7 @@ A small script for openSuse Tumbleweed to...
 
 
 
-Usage:
+## Usage:
 - From most graphical file managers: 
 
     Simply download and start the script. Make sure it's executable.
@@ -19,7 +19,7 @@ Usage:
 
 
 
-Requirements:
+## Requirements:
 - xterm 
 - zenity 
 
@@ -27,7 +27,7 @@ Requirements:
 
 
 
-Notes:
+## Notes:
 
 I'm not a professional coder in any ways. Expect "not so clean" code, but hey, it works.
 
