@@ -8,9 +8,11 @@ A small script for openSuse Tumbleweed to...
 
 Usage:
 - From most graphical file managers: 
+
     Simply download and start the script. Make sure it's executable.
 
 - From Terminal:
+
     $PATH/ktnt_08.sh
 
 
