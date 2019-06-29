@@ -1,59 +1,6 @@
 #!/bin/bash
 #
 #   ########   #####   ###
-
-#knietief's tumbleweed noob tool Version 0.8 (07.2019)
-#
-#Grafisches tool zum installieren gängiger und beliebter Software, sowie Tools zum verwenden zusätzlicher Hardware und NVIDIA Treiber
-#
-#Aus Sicherheitsgründen ist NVIDIA-gl05 noch nicht enthalten, da eine Parallelinstallation in dieser Version noch möglich ist und 
-#das "könnte" tierisch in die Hose gehen. Safety first.
-#
-#Dieses script unterliegt keiner Lizenz und kann von jedem verwendet, erweitert und verteilt werden
-#
-#
-#ACHTUNG
-#Dieses script erfordert für seine Funktion root rechte!
-#Falls du diese Datei nicht von knietief.com heruntergeladen hast, besteht die Gefahr das dieses script zu deinen Ungunsten manipuliert wurde
-#Achte auch auf das Versionsdatum (s.o.), durch diese schnellebigen Änderungen in der Linuxwelt ist kaum zu erahnen wie viel dieses "Tool"
-#in Zukunft kaputt zu machen könnte
-
-#Anregungen und Wünsche entweder selber machen oder gerne auch an linux@knietief.com wenden.
-
-
-
-#USAGE
-#execute the script from filemanager (make sure it's executable)
-#type $PATH/debug: tnt_08.sh into a terminal to start the script
-
-
-
-#CHANGELOG
-#0.8
-# - Virtualbox and Wine added to recall
-# - Xterm to observe installation progress
-# - Opera and Conky added to software
-#
-#0.7
-# - Systemupgrade (zypper dup) added
-# - cleanup
-#
-#0.6
-# - check for zypper is ready for installation
-# - bug fixes :-*
-#
-#
-
-
-
-
-
-
-#	SCRIPT START
-####################################################
-
-
-
 #	ZENITY VORHANDEN? SONST INSTALLIEREN
 ####################################################
 if which xterm >/dev/null; then
