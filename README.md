@@ -34,7 +34,7 @@ A small script for openSuse Tumbleweed to...
 - Debug chain removed
 - Removed german translation 'til 1.0 is reached
 
-
+##
 
 
 ## Notes:
