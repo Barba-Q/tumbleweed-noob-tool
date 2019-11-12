@@ -1,5 +1,5 @@
 # tumbleweed-noob-tool 
-_(current version 0.8)_
+_(current version 0.9)_
 
 A small script for openSuse Tumbleweed to... 
 - install popular software, tools and drivers with a few ticks
@@ -16,7 +16,7 @@ A small script for openSuse Tumbleweed to...
 
 - From Terminal:
 
-    sh $PATH/ktnt_08.sh
+    sh $PATH/ktnt_09.sh
 ##
 
 ## Requirements:
@@ -25,6 +25,17 @@ A small script for openSuse Tumbleweed to...
 
 (both should be preinstalled with openSuse Tumbleweed, script will check for both anyways and inform you if something is missing)
 ##
+
+## Changelog:
+0.9:
+- Minor bug fixes causing script to exit for no obvious reason
+- Added installation of glibc-locales when steam is selected for install.
+    Fixes "text not visible" bug in most (affected) source games (e.g. Insurgency, Days Of Infamy, Garrys Mod)
+- Debug chain removed
+- Removed german translation 'til 1.0 is reached
+
+
+
 
 ## Notes:
 
