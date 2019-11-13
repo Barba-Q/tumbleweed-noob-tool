@@ -12,7 +12,7 @@ fi
 if which zenity >/dev/null; then
     echo zenity check ok
 else
-    notify-send "I have install zenity first, please confirm your root password.\nIf you have trust issues in me, please install it manually and start me again" && sleep 1 && xterm -e "sudo zypper in -l -y zenity"
+    notify-send "I have to install zenity first, please confirm your root password.\nIf you have trust issues in me, please install it manually and start me again" && sleep 1 && xterm -e "sudo zypper in -l -y zenity"
 fi
 
 #	MAIN MENU	
