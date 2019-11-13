@@ -1,5 +1,5 @@
 # tumbleweed-noob-tool 
-_(current version 0.9)_
+_(current version 0.91)_
 
 A small script for openSuse Tumbleweed to... 
 - install popular software, tools and hardware-drivers with a few clicks
@@ -26,6 +26,10 @@ A small script for openSuse Tumbleweed to...
 ##
 
 ## Changelog:
+0.91:
+- Major bug fixes causing the script to for a lot of reasons
+- Reworked exec routine to get rid of multiple password promts
+
 0.9:
 - Minor bug fixes causing script to exit for no obvious reason
 - Added installation of glibc-locales when steam is selected for install.
