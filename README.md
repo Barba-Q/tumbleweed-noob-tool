@@ -3,7 +3,7 @@ _(current version 0.91)_
 
 A small script for openSuse Tumbleweed to... 
 - install popular software, tools and hardware-drivers with a few clicks
-- automatically reinstall software you had on previous linux installations by locating existing configuration files in your existing home folder
+- automatically reinstall software you had on previous linux installations by locating existing configuration files in your home folder
 - perform system upgrade with a tick (zypper dup)
 ##
 
@@ -27,7 +27,7 @@ A small script for openSuse Tumbleweed to...
 
 ## Changelog:
 0.91:
-- Major bug fixes causing the script to for a lot of reasons
+- Major bug fixes causing the script to crash for a lot of reasons
 - Reworked exec routine to get rid of multiple password promts
 
 0.9:
