@@ -113,7 +113,7 @@ if [ "$ask" == "01 Install common software" ]; then
 	
 	if [[ $software = *Steam* ]] 
 	then {
-	j="steam glibc-locale-32bit"
+	j="steam glibc-locale-base-32bit"
 	}
 	fi
 	
