@@ -163,7 +163,7 @@ if [ "$ask" == "01 Install common software" ]; then
 			sudo -S zypper --no-gpg-checks --non-interactive ar http://download.nvidia.com/opensuse/tumbleweed/  NVIDIA;
 			sudo -S zypper --no-gpg-checks --non-interactive ar http://ftp.gwdg.de/pub/linux/packman/suse/openSUSE_Tumbleweed/ Multimedia;
 			sudo -S zypper ref;
-			sudo -S zypper in -l -y $a $b $c $d $e $f $g $h $i $j $k $l $m $n $o $p" 
+			sudo -S zypper in -l -y --allow-vendor-change $a $b $c $d $e $f $g $h $i $j $k $l $m $n $o $p" 
                 if 
                     [ $? -eq 1 ]
                     then {
@@ -210,9 +210,7 @@ if [ "$ask" == "02 Install tools and drivers" ]; then
 	
 	if [[ $tools = *codecs* ]]
 	then {
-	t_b="libavcodec58 libavcodec57 lame speex xvidcore h264enc	\ 
-	ffmpeg-4 ffx264 ffxvid gstreamer-plugins-bad gstreamer-plugins-good-extra	\
-	gstreamer-plugins-libav"
+	t_b="libavcodec58 libavcodec57 lame speex xvidcore h264enc ffmpeg-4 ffx264 ffxvid gstreamer-plugins-bad gstreamer-plugins-good-extra gstreamer-plugins-libav"
 	}
 	fi
 	
@@ -264,7 +262,7 @@ if [ "$ask" == "02 Install tools and drivers" ]; then
 			sudo -S zypper --no-gpg-checks --non-interactive ar http://download.nvidia.com/opensuse/tumbleweed/  NVIDIA;
 			sudo -S zypper --no-gpg-checks --non-interactive ar http://ftp.gwdg.de/pub/linux/packman/suse/openSUSE_Tumbleweed/ Multimedia;
 			sudo -S zypper ref;
-			sudo -S zypper in -l -y $t_a $t_b $t_c $t_d $t_e $t_f $t_g $t_h $t_i $t_j $t_k $t_l $t_m $t_n $t_o $t_p"
+			sudo -S zypper in -l -y --allow-vendor-change $t_a $t_b $t_c $t_d $t_e $t_f $t_g $t_h $t_i $t_j $t_k $t_l $t_m $t_n $t_o $t_p"
                 if 
                     [ $? -eq 1 ]
                     then {
@@ -374,7 +372,7 @@ if [ "$ask" == "03 Recall software from previous installation " ]; then
 			sudo -S zypper --no-gpg-checks --non-interactive ar http://download.nvidia.com/opensuse/tumbleweed/  NVIDIA;
 			sudo -S zypper --no-gpg-checks --non-interactive ar http://ftp.gwdg.de/pub/linux/packman/suse/openSUSE_Tumbleweed/ Multimedia;
 			sudo -S zypper ref;
-			sudo -S zypper in -l -y $r_a $r_b $r_c $r_d $r_e $r_f $r_g $r_h $r_i $r_j $r_k $r_l $r_m $r_n $r_o $r_p "
+			sudo -S zypper in -l -y --allow-vendor-change $r_a $r_b $r_c $r_d $r_e $r_f $r_g $r_h $r_i $r_j $r_k $r_l $r_m $r_n $r_o $r_p "
                 if 
                     [ $? -eq 1 ]
                     then {
@@ -405,7 +403,7 @@ if [ "$ask" == "04 Perform Software Upgrade" ]; then
 			sudo -S zypper --no-gpg-checks --non-interactive ar http://download.nvidia.com/opensuse/tumbleweed/  NVIDIA;
 			sudo -S zypper --no-gpg-checks --non-interactive ar http://ftp.gwdg.de/pub/linux/packman/suse/openSUSE_Tumbleweed/ Multimedia;
 			sudo -S zypper ref;
-			sudo -S zypper -n dup -l"
+			sudo -S zypper -n dup -l --allow-vendor-change"
                 if 
                     [ $? -eq 1 ]
                     then {
