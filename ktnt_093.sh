@@ -193,7 +193,7 @@ if [ "$ask" == "02 Install tools and drivers" ]; then
 	--column "" --column "Software" --column "Description"	\
 		False solaar "Handle Logitech dongles"	\
 		False cups "Additional printer drivers"	\
-		False codecs "Additional multimedia codecs"
+		False codecs "Additional multimedia codecs"	\
 		False msttfonts "Microsoft licensed fonts"	\
 		False nvidia-gl04 "NVIDIA Driver for most cards"	\
 		False nvidia-gl05 "NVIDIA Driver for latest cards (not available in this version. Add manually"	\
@@ -218,19 +218,19 @@ if [ "$ask" == "02 Install tools and drivers" ]; then
 	
 	if [[ $tools = *cups* ]]
 	then {
-	t_b="cups"
+	t_c="cups"
 	}
 	fi
 	
 	if [[ $tools = *msttfonts* ]]
 	then {
-	t_c="fetchmsttfonts"
+	t_d="fetchmsttfonts"
 	}
 	fi
 	
 	if [[ $tools = *nvidia-gl04* ]]
 	then {
-	t_d="nvidia-glG04"
+	t_e="nvidia-glG04"
 	}
 	fi
 	
