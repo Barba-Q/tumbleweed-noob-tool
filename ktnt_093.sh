@@ -193,6 +193,7 @@ if [ "$ask" == "02 Install tools and drivers" ]; then
 	--column "" --column "Software" --column "Description"	\
 		False solaar "Handle Logitech dongles"	\
 		False cups "Additional printer drivers"	\
+		False codecs "Additional multimedia codecs"
 		False msttfonts "Microsoft licensed fonts"	\
 		False nvidia-gl04 "NVIDIA Driver for most cards"	\
 		False nvidia-gl05 "NVIDIA Driver for latest cards (not available in this version. Add manually"	\
@@ -204,6 +205,14 @@ if [ "$ask" == "02 Install tools and drivers" ]; then
 	if [[ $tools = solaar* ]]
 	then {
 	t_a="solaar"
+	}
+	fi
+	
+	if [[ $tools = *codecs* ]]
+	then {
+	t_b="libavcodec58 libavcodec57 lame speex xvidcore h264enc	\ 
+	ffmpeg-4 ffx264 ffxvid gstreamer-plugins-bad gstreamer-plugins-good-extra	\
+	gstreamer-plugins-libav"
 	}
 	fi
 	
