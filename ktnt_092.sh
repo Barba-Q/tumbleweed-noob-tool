@@ -6,13 +6,13 @@
 if which xterm >/dev/null; then
     echo debug: tnt xterm check ok
 else   
-    notify-send "Please install xterm manually (sudo zypper in xterm),\n it's necessary for this tool to work properly" && exit 0
+    echo "Please install xterm manually (sudo zypper in xterm),\n it's necessary for this tool to work properly" && exit 0
 fi
 
 if which zenity >/dev/null; then
     echo zenity check ok
 else
-    notify-send "I have to install zenity first, please confirm your root password.\nIf you have trust issues in me, please install it manually and start me again" && sleep 1 && xterm -e "sudo zypper in -l -y zenity"
+    echo "I have to install zenity first, please confirm your root password.\nIf you have trust issues in me, please install it manually and start me again" && sleep 1 && xterm -e "sudo zypper in -l -y zenity"
 fi
 
 #	MAIN MENU	
@@ -160,8 +160,8 @@ if [ "$ask" == "01 Install common software" ]; then
 	zenity --info --title='Off we go!' --width=450 --height=100 --text='You want me to apply all changes?' 
 			xterm -e "sudo -S killall packagekitd;
 			sudo -S killall y2start;
-			sudo -S zypper ar http://download.nvidia.com/opensuse/tumbleweed/  NVIDIA;
-			sudo -S zypper ar http://ftp.gwdg.de/pub/linux/packman/suse/openSUSE_Tumbleweed/ Multimedia;
+			sudo -S zypper --no-gpg-checks --non-interactive ar http://download.nvidia.com/opensuse/tumbleweed/  NVIDIA;
+			sudo -S zypper --no-gpg-checks --non-interactive ar http://ftp.gwdg.de/pub/linux/packman/suse/openSUSE_Tumbleweed/ Multimedia;
 			sudo -S zypper ref;
 			sudo -S zypper in -l -y $a $b $c $d $e $f $g $h $i $j $k $l $m $n $o $p" 
                 if 
@@ -252,8 +252,8 @@ if [ "$ask" == "02 Install tools and drivers" ]; then
 	zenity --info --title='Off we go!' --width=450 --height=100 --text='You want me to apply all changes?' 
 			xterm -e "sudo -S killall packagekitd; 
             sudo -S killall y2start;
-			sudo -S zypper ar http://download.nvidia.com/opensuse/tumbleweed/  NVIDIA;
-			sudo -S zypper ar http://ftp.gwdg.de/pub/linux/packman/suse/openSUSE_Tumbleweed/ Multimedia;
+			sudo -S zypper --no-gpg-checks --non-interactive ar http://download.nvidia.com/opensuse/tumbleweed/  NVIDIA;
+			sudo -S zypper --no-gpg-checks --non-interactive ar http://ftp.gwdg.de/pub/linux/packman/suse/openSUSE_Tumbleweed/ Multimedia;
 			sudo -S zypper ref;
 			sudo -S zypper in -l -y $t_a $t_b $t_c $t_d $t_e $t_f $t_g $t_h $t_i $t_j $t_k $t_l $t_m $t_n $t_o $t_p"
                 if 
@@ -362,8 +362,8 @@ if [ "$ask" == "03 Recall software from previous installation " ]; then
 	####################################################
 	zenity --info --title='Let me see..' --width=450 --height=100 --text='You want me to resurrect your stuff...\nat least what I can find?' 
 			xterm -e "sudo -S killall packagekitd; 
-			sudo -S zypper ar http://download.nvidia.com/opensuse/tumbleweed/  NVIDIA;
-			sudo -S zypper ar http://ftp.gwdg.de/pub/linux/packman/suse/openSUSE_Tumbleweed/ Multimedia;
+			sudo -S zypper --no-gpg-checks --non-interactive ar http://download.nvidia.com/opensuse/tumbleweed/  NVIDIA;
+			sudo -S zypper --no-gpg-checks --non-interactive ar http://ftp.gwdg.de/pub/linux/packman/suse/openSUSE_Tumbleweed/ Multimedia;
 			sudo -S zypper ref;
 			sudo -S zypper in -l -y $r_a $r_b $r_c $r_d $r_e $r_f $r_g $r_h $r_i $r_j $r_k $r_l $r_m $r_n $r_o $r_p "
                 if 
@@ -393,8 +393,8 @@ if [ "$ask" == "04 Perform Software Upgrade" ]; then
 	####################################################
 	zenity --info --title='Let me see..' --width=450 --height=100 --text='You want me to upgrade your system?' 
 			xterm -e "sudo -S killall packagekitd; 
-			sudo -S zypper ar http://download.nvidia.com/opensuse/tumbleweed/  NVIDIA;
-			sudo -S zypper ar http://ftp.gwdg.de/pub/linux/packman/suse/openSUSE_Tumbleweed/ Multimedia;
+			sudo -S zypper --no-gpg-checks --non-interactive ar http://download.nvidia.com/opensuse/tumbleweed/  NVIDIA;
+			sudo -S zypper --no-gpg-checks --non-interactive ar http://ftp.gwdg.de/pub/linux/packman/suse/openSUSE_Tumbleweed/ Multimedia;
 			sudo -S zypper ref;
 			sudo -S zypper -n dup -l"
                 if 
