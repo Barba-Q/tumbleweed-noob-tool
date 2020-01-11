@@ -1,5 +1,5 @@
 # tumbleweed-noob-tool 
-_(current version 0.91)_
+_(current version 0.93)_
 
 A small script for openSuse Tumbleweed to... 
 - install popular software, tools and hardware-drivers with a few clicks
@@ -26,6 +26,10 @@ A small script for openSuse Tumbleweed to...
 ##
 
 ## Changelog:
+0.92 / 0.93
+- Fixed the script hanging on repository prompt while adding them.
+- Added multimedia-codecs to the tool's section
+
 0.91:
 - Major bug fixes causing the script to crash for a lot of reasons
 - Reworked exec routine to get rid of multiple password promts
