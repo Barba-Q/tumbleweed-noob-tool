@@ -6,11 +6,17 @@ A small script for openSuse Tumbleweed to...
 - automatically reinstall software you had on previous linux installations by locating existing configuration files in your home folder
 - perform system upgrade with a tick (zypper dup)
 - One click set up for very unexperienced users, it will...
+
         -  add repositories for multimediapackages (Packman) and NVIDIA drivers. 
+        
         - install super common software
+        
                     audacity; chromium; discord; obs-studio; vlc; steam; wine; youtube-dl 
+                    
         - install multimedia codecs
+        
         - install microsoft licensed True Type Fonts
+        
 ##
 
 ## Usage:
