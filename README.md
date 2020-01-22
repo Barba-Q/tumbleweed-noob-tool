@@ -1,10 +1,16 @@
 # tumbleweed-noob-tool 
-_(current version 0.93)_
+_(current version 0.94)_
 
 A small script for openSuse Tumbleweed to... 
 - install popular software, tools and hardware-drivers with a few clicks
 - automatically reinstall software you had on previous linux installations by locating existing configuration files in your home folder
 - perform system upgrade with a tick (zypper dup)
+- One click set up for very unexperienced users, it will...
+        -  add repositories for multimediapackages (Packman) and NVIDIA drivers. 
+        - install super common software
+                    audacity; chromium; discord; obs-studio; vlc; steam; wine; youtube-dl 
+        - install multimedia codecs
+        - install microsoft licensed True Type Fonts
 ##
 
 ## Usage:
@@ -26,6 +32,9 @@ A small script for openSuse Tumbleweed to...
 ##
 
 ## Changelog:
+0.94
+- Added "One click set up"
+
 0.92 / 0.93
 - Fixed the script hanging on repository prompt while adding them.
 - Added multimedia-codecs to the tool's section
