@@ -1,5 +1,5 @@
 # tumbleweed-noob-tool 
-_(current version 0.94)_
+_(current version 0.95)_
 
 A small script for openSuse Tumbleweed to... 
 - install popular software, tools and hardware-drivers with a few clicks
@@ -38,6 +38,10 @@ A small script for openSuse Tumbleweed to...
 ##
 
 ## Changelog:
+0.95
+- Some minor cleanup
+- Fixed Systemupgrade
+
 0.94
 - Added "One click set up"
 
