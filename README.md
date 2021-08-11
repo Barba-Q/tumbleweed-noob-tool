@@ -41,6 +41,7 @@ A small script for openSuse Tumbleweed to...
 1..0
 - Fixed failure on codec installation
 - Script now installable
+- Systemupgrade now fully automatic
 
 0.95
 - Some minor cleanup
