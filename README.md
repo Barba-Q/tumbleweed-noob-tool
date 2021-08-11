@@ -1,5 +1,5 @@
 # tumbleweed-noob-tool 
-_(current version 0.95)_
+_(current version 1.0)_
 
 A small script for openSuse Tumbleweed to... 
 - install popular software, tools and hardware-drivers with a few clicks
@@ -22,22 +22,26 @@ A small script for openSuse Tumbleweed to...
 ## Usage:
 - From most graphical file managers: 
 
-    Simply download and start the script. Make sure it's executable.
-
+    Simply download and start the script inside the tar.gz. Make sure it's executable.
+    You can "Install" it by execute the install.sh. It will copy all the files to /usr/share/... to have a global service and menu entry
 
 - From Terminal:
 
-    sh $PATH/ktnt_09.sh
+    sh $PATH/install.sh
 ##
 
 ## Requirements:
 - xterm 
 - zenity 
 
-(both should be preinstalled with openSuse Tumbleweed, script will check for both anyways and inform you if something is missing)
+(both should be preinstalled with openSuse Tumbleweed, script will check for both anyways and inform you if something is missing; Zenity will be installed right away within the script)
 ##
 
 ## Changelog:
+1..0
+- Fixed failure on codec installation
+- Script now installable
+
 0.95
 - Some minor cleanup
 - Fixed Systemupgrade
