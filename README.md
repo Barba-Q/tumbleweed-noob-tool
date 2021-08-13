@@ -39,6 +39,7 @@ A small script for openSuse Tumbleweed to...
 
 ## Changelog:
 1.1
+- Fixed error when resurrecting software
 - Fixed typos
 - Cleanup
 
