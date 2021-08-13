@@ -1,5 +1,5 @@
 # tumbleweed-noob-tool 
-_(current version 1.0)_
+_(current version 1.1)_
 
 A small script for openSuse Tumbleweed to... 
 - install popular software, tools and hardware-drivers with a few clicks
@@ -38,7 +38,11 @@ A small script for openSuse Tumbleweed to...
 ##
 
 ## Changelog:
-1..0
+1.1
+- Fixed typos
+- Cleanup
+
+1.0
 - Fixed failure on codec installation
 - Script now installable
 - Systemupgrade now fully automatic
@@ -75,7 +79,7 @@ I'm not a professional coder in any ways. Expect "not so clean" code, but hey, i
 Feel free to make suggestions or changes.
 ##
 
-## Road to 1.0:
+## Road to 1.5:
 - have a binary instead of a plain script
 - add current user to "games" group when installing steam controller support
 - add some libs with steam installation for flawless gaming experience (some games still have issues due to missing libs on openSuse and wont work as intended)
@@ -84,6 +88,7 @@ Feel free to make suggestions or changes.
 - lock on one nvidia driver (if both selected) OR generate pop up message if both selected
 - add manuals
 - purge temporary files on installation error / after system upgrade
+- add chrome browser
 
 ##
 _powered by knietief.com - come to where the Pfeffer wächst_
