@@ -1,7 +1,8 @@
 # tumbleweed-noob-tool 
-_(current version 1.1)_
+_(current version 2.0.1)_
 
 A small script for openSuse Tumbleweed to... 
+From Ver 2.0 on the GUI is based on python.
 - install popular software, tools and hardware-drivers with a few clicks
 - automatically reinstall software you had on previous linux installations by locating existing configuration files in your home folder
 - perform system upgrade with a tick (zypper dup)
@@ -28,6 +29,10 @@ A small script for openSuse Tumbleweed to...
 - From Terminal:
 
     sh $PATH/install.sh
+    
+- For 2.0:
+-       Install python and its corresponding tk package (sudo zypper in python39 python39-tk)
+-       Execute the pythonscript (python3.9 tnt.py)      
 ##
 
 ## Requirements:
@@ -35,9 +40,18 @@ A small script for openSuse Tumbleweed to...
 - zenity 
 
 (both should be preinstalled with openSuse Tumbleweed, script will check for both anyways and inform you if something is missing; Zenity will be installed right away within the script)
+
+- For 2.0:
+-       python
+-       python-tk
+-       zenity not longer required
 ##
 
 ## Changelog:
+2.0.1
+- Initial relase with new, python based GUI
+- Autothingy and Softwareresurrection are not implemented yet
+
 1.1
 - Fixed error when resurrecting software
 - Fixed typos
