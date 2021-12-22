@@ -3,7 +3,7 @@ _(current version 2.0.1)_
 # 2.0
 ## Usage:
 - Download the folder and execute the tnt file (./tnt)
-- The folders are relevant and should not be removed or change (This will change in the future)
+- The folders are relevant and should not be re- moved or changed (For now)
 
 ## Requirements:
 - xterm
