@@ -43,10 +43,7 @@ A small script for openSuse Tumbleweed to...
 - From Terminal:
 
     sh $PATH/install.sh
-    
-- For 2.0:
--       Install python and its corresponding tk package (sudo zypper in python39 python39-tk)
--       Execute the pythonscript (python3.9 tnt.py)      
+        
 ##
 
 ## Requirements:
@@ -55,10 +52,6 @@ A small script for openSuse Tumbleweed to...
 
 (both should be preinstalled with openSuse Tumbleweed, script will check for both anyways and inform you if something is missing; Zenity will be installed right away within the script)
 
-- For 2.0:
--       python
--       python-tk
--       zenity not longer required
 ##
 
 ## Changelog:
