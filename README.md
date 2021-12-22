@@ -1,8 +1,22 @@
 # tumbleweed-noob-tool 
 _(current version 2.0.1)_
+# 2.0
+## Usage:
+- Download the folder and execute the tnt file (./tnt)
+- The folders are relevant and should not be removed or change (This will change in the future)
+
+## Requirements:
+- xterm
+
+## Known issues:
+- Autosetup is not implemented yet
+- Software resurrection is not implemented yet
+
+
+# 1.x
 
 A small script for openSuse Tumbleweed to... 
-From Ver 2.0 on the GUI is based on python.
+
 - install popular software, tools and hardware-drivers with a few clicks
 - automatically reinstall software you had on previous linux installations by locating existing configuration files in your home folder
 - perform system upgrade with a tick (zypper dup)
